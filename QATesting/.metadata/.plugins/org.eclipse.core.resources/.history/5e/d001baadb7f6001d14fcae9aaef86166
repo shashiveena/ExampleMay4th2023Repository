@@ -1,0 +1,10 @@
+package com.sgtesting.qatest1;
+
+public class ArrayCopyRead1DDemo2 {
+	
+	int a[]= {5,10,15,20,25};
+	int b[]=new int[a.length];
+	for(int i= 0;i<a.length-1;i++)
+	
+
+}

@@ -1,0 +1,17 @@
+package com.sgtesting.qatest1;
+
+public class CharArrayCopy1DFirstHalfReV {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char ch[] = {'a','b','c','%','&','#'}; //creata and intialise
+		
+		char ch1[]= new char[ch.length];
+		System.out.println(ch.length);
+		
+		
+		
+	}
+
+}

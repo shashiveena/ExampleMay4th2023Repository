@@ -1,0 +1,29 @@
+package com.sgtesting.qatest1;
+
+public class StringFirstRow4Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s[][]= {{"shashi","veena","gowri"},{"tiger","lion","cheeta"},{"Bang","Mys","Tum"}};
+		for(int row =0;row <=s.length-1;row++)
+		{
+			for(int col= 0;col<=s[0].length-1;col++)	
+			{
+				//System.out.print(s[row][col]+" ");// array intial
+			}
+			System.out.println();
+		}
+
+		///print
+		System.out.println( " FIRST Row elements");
+		System.out.println();
+		//for(int row =0;row <=s.length-1;row++) {
+		for(int col= 0;col<=s[0].length-1;col++)	
+		{
+			System.out.print(s[0][col]+" ");//only first row
+		}
+		//}
+		System.out.println();
+
+	}
+}
